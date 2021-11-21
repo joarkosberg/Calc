@@ -1,0 +1,16 @@
+$pad-color: #ffffff;
+
+.pad {
+    border: 1px solid $pad-color;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.pad:hover {
+    border-color: #dddddd;
+}
+
+.pad:active {
+    background-color: rgba($color: $pad-color, $alpha: 0.2);
+}

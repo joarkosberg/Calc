@@ -1,0 +1,29 @@
+$input-gap: 5px;
+
+.input-parent {
+    width: 320px;
+}
+
+.input-field {
+    border: solid 1px #ffffff;
+    border-radius: 16px;
+    text-align: start;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.input-numbers {
+    display: grid;
+    column-gap: $input-gap; 
+    row-gap: $input-gap; 
+    grid-template-columns: auto auto auto;
+    margin-top: $input-gap;
+    margin-bottom: $input-gap;
+}
+
+.input-actions {
+    display: grid;
+    column-gap: $input-gap; 
+    row-gap: $input-gap; 
+    grid-template-columns: auto auto auto auto auto;
+}
